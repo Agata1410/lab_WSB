@@ -29,9 +29,3 @@ WebUI.verifyElementPresent(findTestObject('Page_Google/img_Jak dziaa wyszukiwark
 
 WebUI.acceptAlert()
 
-WebUI.closeBrowser()
-
-WebUI.closeBrowser()
-
-WebUI.closeBrowser()
-
