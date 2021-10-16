@@ -21,7 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 
+'TOMEK CHANGES'
+WebUI.clickOffset(findTestObject(null), 0, 0)
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Google/a_Warunki'))
+
+WebUI.closeBrowser()
+
+WebUI.closeBrowser()
 
 WebUI.closeBrowser()
 
