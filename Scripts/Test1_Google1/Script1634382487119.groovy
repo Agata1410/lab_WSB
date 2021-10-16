@@ -27,5 +27,9 @@ WebUI.verifyElementVisible(findTestObject('Page_Google/input_Usu_btnK'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Google/img_Jak dziaa wyszukiwarka_Pb9hCb'), 0)
 
+WebUI.acceptAlert()
+
+WebUI.closeBrowser()
+
 WebUI.closeBrowser()
 
